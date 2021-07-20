@@ -151,7 +151,7 @@ impl Neighborhood for MooreNeighborhood {
             point.1 - goal.1
         };
         
-        (((diff_0 * diff_0 + diff_1 * diff_1) as f32).sqrt() * 10.) as usize
+        (((diff_0 * diff_0 + diff_1 * diff_1) as f32).sqrt() * 2.) as usize
     }
 }
 
